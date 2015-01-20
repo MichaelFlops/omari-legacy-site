@@ -11,6 +11,7 @@ check@1.0.3
 ddp@1.0.13
 deps@1.0.6
 ejson@1.0.5
+ewall:foundation@5.5.0
 fastclick@1.0.2
 follower-livedata@1.0.3
 geojson-utils@1.0.2
