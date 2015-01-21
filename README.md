@@ -8,8 +8,8 @@
 *UPDATE* we've migrated to using yeoman / bootstrap.
 
 In order to get this working run the good ol'
-    bower install
-    npm install
-    grunt serve
+        bower install
+        npm install
+        grunt serve
   
 If that doesn't work check out http://yeoman.io/ for guidance!  
