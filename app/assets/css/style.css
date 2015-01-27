@@ -228,6 +228,20 @@ a:focus {
 	SITE WRAPS
 ################################################################# */
 
+.herofloat {
+	position: absolute;
+	top: 40%;
+	font-size: 40px;
+	color: white;
+	background-color: chartreuse;
+	opacity: 0.9;
+}
+
+.video-close {
+	top: 21px;
+}
+
+
 #headerwrap {
 	background-color: #00b3fe;
 	min-height: 550px;
