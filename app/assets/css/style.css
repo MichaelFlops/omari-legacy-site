@@ -118,10 +118,21 @@ a:focus {
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
+	float:none;
+	left: 100%;
+
 }
 
 .navbar-header .navbar-brand {
 	color: white;
+	float: left;
+    padding: 5px;
+    text-align: center;
+    /*width: 29%;*/
+    /*padding-bottom: 100px;*/
+
+	/*padding-left: 410px;*/
+	
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -244,7 +255,7 @@ a:focus {
 
 @media screen and (min-width: 1000px) {
 	.herofloat {
-		top: 77%;
+		top: 73%;
 	}
 }
 
@@ -535,4 +546,28 @@ csmall2 {
 .share i {
 	padding-right: 15px;
 	font-size: 18px;
+}
+
+header{
+    position: fixed;
+    width: 300%;
+  /*  text-align: center;*/
+    font-size: 72px;
+    line-height: 108px;
+    height: 108px;
+    /*background: #335C7D;*/
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+header.sticky {
+    /*font-size: 24px;*/
+    line-height: 48px;
+    height: 48px; 
+   /* background: #efc47D;*/
+    /*text-align: left;*/
+    padding-right:2700px;
 }
