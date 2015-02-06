@@ -336,15 +336,12 @@ a:focus {
 	text-align: center
 }
 @media (min-width: 1200px) {
-	#portfoliowrap {
-	/*padding-top: 60px;*/
-	padding-left: 80px;
-	margin: 60px;
+#portfoliowrap {
+	padding-left: 60px;
 	display: block;
 	text-align: center
 	}
-  }
-}
+ }
 
 #portfoliowrap h3 {
 	margin-bottom: 25px;
