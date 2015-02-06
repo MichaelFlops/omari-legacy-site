@@ -329,10 +329,21 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	padding-top: 60px;
-	margin-bottom: 60px;
+	/*padding-top: 60px;*/
+	float: middle;
+	margin: 60px;
 	display: block;
 	text-align: center
+}
+@media (min-width: 1200px) {
+	#portfoliowrap {
+	/*padding-top: 60px;*/
+	padding-left: 80px;
+	margin: 60px;
+	display: block;
+	text-align: center
+	}
+  }
 }
 
 #portfoliowrap h3 {
