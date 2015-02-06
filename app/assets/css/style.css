@@ -113,6 +113,9 @@ a:focus {
 	min-height: 70px;
 	padding-top: 10px;
 	margin-bottom: 0px;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+	
 }
 
 .navbar-brand {
@@ -153,6 +156,8 @@ a:focus {
 .navbar-default {
 	background-color: #384452;
 	border-color: transparent;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
 
 .dropdown-menu {
@@ -171,14 +176,17 @@ a:focus {
   border-color: #384452;
   margin: 4px;
 }
+.btn-right{
+  float:right;
+}
 .btn-theme:hover,
 .btn-theme:focus,
 .btn-theme:active,
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: #00b3fe;
-  border-color: #00b3fe;
+  background-color: #13c43d;
+  border-color: #fff;
 }
 
 .dmbutton:hover,
@@ -244,7 +252,7 @@ a:focus {
 	border: 3px white solid;
 	position: absolute;
 	padding: 30px;
-	top: 40%;
+	top: 73%;
 	color: white;
 	background-color: rgb(0, 93, 128);
 }
@@ -255,13 +263,13 @@ a:focus {
 
 @media screen and (min-width: 1000px) {
 	.herofloat {
-		top: 73%;
+		top: 63%;
 	}
 }
 
 @media screen and (max-width: 810px) {
 	.herofloat {
-		top: 25%;
+		top: 63%;
 	}
 }
 
@@ -270,13 +278,13 @@ a:focus {
 		border-radius: 0px;
 		border-left: 0px;
 		border-right: 0px;
-		top: 30%;
+		top: 63%;
 	}
 }
 
 @media screen and (max-width: 600px) {
 	.herofloat {
-		top: 20%;
+		top: 50%;
 	}
 }
 
@@ -317,8 +325,8 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 70px;
+	margin-bottom: 30px;
 }
 
 #service i {
@@ -331,13 +339,13 @@ a:focus {
 #portfoliowrap {
 	/*padding-top: 60px;*/
 	float: middle;
-	margin: 60px;
+	/*margin: 60px;*/
 	display: block;
 	text-align: center
 }
 @media (min-width: 1200px) {
 #portfoliowrap {
-	padding-left: 60px;
+	margin-left: 140px;
 	display: block;
 	text-align: center
 	}
@@ -556,6 +564,60 @@ csmall2 {
 	font-size: 18px;
 }
 
+.logo{
+	max-width:11%;
+	position: fixed;
+	left:8%;
+	top:1%;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+@media screen and (max-width: 766px){
+  .logo {
+	max-width:20%;
+	position: fixed;
+	left:8%;
+	top:1%;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+}
+@media screen and (max-width: 810px){
+  .logo {
+	max-width:15%;
+	position: fixed;
+	left:8%;
+	top:1%;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+}
+
+.logo-shrink{
+	max-width: 8%;
+	margin-top: -5px;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+@media screen and (max-width: 810px){
+.logo-shrink{
+	max-width: 8%;
+	margin-top: -5px;
+	top:3%;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+}
+.navbar-shrink{
+	min-height: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
 header{
     position: fixed;
     width: 300%;
@@ -579,3 +641,4 @@ header.sticky {
     /*text-align: left;*/
     padding-right:2700px;
 }
+

@@ -93,7 +93,7 @@ $(window).scroll(function() {
 	$(function () {
 		$(window).scroll(function () {
             // set distance user needs to scroll before we fadeIn navbar
-			if ($(this).scrollTop() > 100) {
+			if ($(this).scrollTop() > 50) {
 				$('.navbar-nav').fadeIn();
 			} else {
 				$('.navbar-nav').fadeOut();
@@ -102,3 +102,23 @@ $(window).scroll(function() {
 	});
 });
   }(jQuery));
+
+(function ($) {
+  $(document).ready(function(){
+	$(function () {
+		$(window).scroll(function () {
+            // set distance user needs to scroll before we fadeIn navbar
+			if ($(this).scrollTop() > 500) {
+				$('.navbar-default').addClass('navbar-shrink');
+				$('.navbar').addClass('navbar-shrink');
+				$('.logo').addClass('logo-shrink');
+			} else {
+				$('.navbar-default').removeClass('navbar-shrink');
+				$('.navbar').removeClass('navbar-shrink');
+				$('.logo').removeClass('logo-shrink');
+			}
+		});
+	});
+});
+  }(jQuery));
+
