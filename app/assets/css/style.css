@@ -113,6 +113,9 @@ a:focus {
 	min-height: 70px;
 	padding-top: 10px;
 	margin-bottom: 0px;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+	
 }
 
 .navbar-brand {
@@ -153,6 +156,8 @@ a:focus {
 .navbar-default {
 	background-color: #384452;
 	border-color: transparent;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
 
 .dropdown-menu {
@@ -317,8 +322,8 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 70px;
+	margin-bottom: 30px;
 }
 
 #service i {
@@ -331,13 +336,13 @@ a:focus {
 #portfoliowrap {
 	/*padding-top: 60px;*/
 	float: middle;
-	margin: 60px;
+	/*margin: 60px;*/
 	display: block;
 	text-align: center
 }
 @media (min-width: 1200px) {
 #portfoliowrap {
-	padding-left: 60px;
+	margin-left: 140px;
 	display: block;
 	text-align: center
 	}
@@ -556,6 +561,29 @@ csmall2 {
 	font-size: 18px;
 }
 
+.logo{
+	max-width:11%;
+	position: fixed;
+	left:8%;
+	top:1%;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.logo-shrink{
+	max-width: 8%;
+	margin-top: -5px;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.navbar-shrink{
+	min-height: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
 header{
     position: fixed;
     width: 300%;
@@ -579,3 +607,4 @@ header.sticky {
     /*text-align: left;*/
     padding-right:2700px;
 }
+
