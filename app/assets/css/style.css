@@ -345,7 +345,6 @@ a:focus {
 }
 @media (min-width: 1200px) {
 #portfoliowrap {
-	margin-left: 140px;
 	display: block;
 	text-align: center
 	}
