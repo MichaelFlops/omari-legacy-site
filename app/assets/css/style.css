@@ -581,10 +581,10 @@ csmall2 {
 }
 
 .logo{
-	max-width:11%;
+	max-width:12%;
 	position: fixed;
 	left:8%;
-	top:1%;
+	top:2%;
 	-webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
@@ -610,9 +610,13 @@ csmall2 {
   }
 }
 
+@media screen and (max-width: 1090px){
+
+}
+
 .logo-shrink{
-	max-width: 8%;
-	margin-top: -5px;
+	max-width: 9%;
+	margin-top: -4px;
 	-webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
