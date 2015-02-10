@@ -581,10 +581,10 @@ csmall2 {
 }
 
 .logo{
-	max-width:12%;
+	max-width:11%;
 	position: fixed;
 	left:8%;
-	top:2%;
+	top:1%;
 	-webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
