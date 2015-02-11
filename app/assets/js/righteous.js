@@ -88,18 +88,7 @@ $(window).scroll(function() {
 });
 (function ($) {
   $(document).ready(function(){
-	$(".navbar-nav").hide();
 	$('.navbar-brand').css({"width":'29%'});
-	$(function () {
-		$(window).scroll(function () {
-            // set distance user needs to scroll before we fadeIn navbar
-			if ($(this).scrollTop() > 50) {
-				$('.navbar-nav').fadeIn();
-			} else {
-				$('.navbar-nav').fadeOut();
-			}
-		});
-	});
 });
   }(jQuery));
 
