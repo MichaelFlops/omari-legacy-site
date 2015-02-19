@@ -255,6 +255,7 @@ a:focus {
 	top: 73%;
 	color: white;
 	background-color: rgb(0, 93, 128);
+	z-index: 1;
 }
 
 .video-close {
