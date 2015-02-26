@@ -1,5 +1,12 @@
 
+asdfasdfasd
+// $("#submit-right").click(function(){
+// 	console.log("asdfasdf");
+// 	console.log($("#inputName").val());
+// });
 
+// console.log("init")
+/*
 createform.setAttribute("action", ""); // Setting Action Attribute on Form// createform.setAttribute("method", "post"); // Setting Method Attribute on Form
 x.appendChild(createform);
 
@@ -54,3 +61,5 @@ submitelement.setAttribute("type", "submit");
 submitelement.setAttribute("name", "dsubmit");
 submitelement.setAttribute("value", "Submit");
 createform.appendChild(submitelement);
+
+*/
