@@ -11,11 +11,19 @@ $(function() {
     newVideo();
   })
 
+  var random = Math.floor(Math.random() * videos.length);
+
   var newVideo = function(){
     if($("#carousel-link"))
       $("#carousel-link").remove();
 
-    var link = videos[Math.floor(Math.random() * videos.length)];
+    var link = videos[random];
+    var maybeRand = Math.floor(Math.random() * videos.length);
+
+    while(maybeRand == random){
+      maybeRand = Math.floor(Math.random() * videos.length);
+    }
+    random = maybeRand;
 
     $("#video-carousel").append("<source id=\"carousel-link\" src=\"" + link + "\" type=\"video/mp4\" />");
     $("#video-carousel").load();
