@@ -250,7 +250,7 @@ a:focus {
 .herofloat {
 	position: absolute;
 	padding: 20px;
-	top: 73%;
+	top: 40%;
 	color: white;
 	background-color: rgba(0, 93, 128,.8);
 	z-index: 999;
@@ -268,13 +268,13 @@ a:focus {
 
 @media screen and (min-width: 1000px) {
 	.herofloat {
-		top: 63%;
+		top: 55%;
 	}
 }
 
 @media screen and (max-width: 810px) {
 	.herofloat {
-		top: 63%;
+		top: 35%;
 	}
 }
 
@@ -283,13 +283,13 @@ a:focus {
 		border-radius: 0px;
 		border-left: 0px;
 		border-right: 0px;
-		top: 63%;
+		top: 30%;
 	}
 }
 
 @media screen and (max-width: 600px) {
 	.herofloat {
-		top: 50%;
+		top: 18%;
 	}
 }
 
