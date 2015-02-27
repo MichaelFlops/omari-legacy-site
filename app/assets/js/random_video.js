@@ -1,6 +1,7 @@
 
 $(function() {
   
+  //To add new videos to the carousel, add them to this array.
   var videos = [
       'https://s3-us-west-1.amazonaws.com/firepenguin/michael+sounds.MOV',
       'https://dl.dropboxusercontent.com/u/57909785/work.mp4'
