@@ -1,24 +1,24 @@
-/*.introduction {
-width: 100%;
-margin: 0 auto;
-padding: 15px;
-position: absolute;
-top: 50%;
-z-index: 1;
-}
+	/*.introduction {
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+	}
 
-*//*
-.video-close {
--webkit-transition: opacity 200ms;
--o-transition: opacity 200ms;
-transition: opacity 200ms;
-background-color: #00b3fe;
-top: 21px;
-left: 21px;
-opacity: 0.7;
-}
+
+	.video-close {
+	-webkit-transition: opacity 200ms;
+	-o-transition: opacity 200ms;
+	transition: opacity 200ms;
+	background-color: #00b3fe;
+	top: 21px;
+	left: 21px;
+	opacity: 0.7;
+	}
+
 */
-
 
 
 
@@ -248,13 +248,16 @@ a:focus {
 ################################################################# */
 
 .herofloat {
-	border-radius: 5px;
-	border: 3px white solid;
 	position: absolute;
-	padding: 30px;
+	padding: 20px;
 	top: 73%;
 	color: white;
-	background-color: rgb(0, 93, 128);
+	background-color: rgba(0, 93, 128,.2);
+	z-index: 999;
+  border-top: 5px solid #CCCCCC;
+  border-right: 5px solid #333333;
+  border-bottom: 5px solid #333333;
+  border-left: 5px solid #CCCCCC;
 }
 
 .video-close {
