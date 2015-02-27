@@ -252,10 +252,6 @@ a:focus {
 	padding: 20px;
 	top: 73%;
 	color: white;
-
-	background-color: rgb(0, 93, 128);
-	z-index: 1;
-
 	background-color: rgba(0, 93, 128,.2);
 	z-index: 999;
   border-top: 5px solid #CCCCCC;
@@ -528,6 +524,15 @@ csmall2 {
 	background: #00b3fe;
 }
 
+/* Splash Page */
+
+#carousel-button{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none;
+	user-select:none;
+	-o-user-select:none;
+}
 /* Contact Page */
 #contactwrap {
 	background: url(../img/contact.jpg) no-repeat center top;
