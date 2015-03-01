@@ -10,9 +10,9 @@ $(function() {
 
   $("#carousel-button").click(function(){
     newVideo();
-  })
+  });
 
-  var random = Math.floor(Math.random() * videos.length);
+  var random = 2;
 
   var newVideo = function(){
     if($("#carousel-link"))
