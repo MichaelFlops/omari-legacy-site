@@ -10,7 +10,7 @@ $(function() {
 
   $("#carousel-button").click(function(){
     newVideo();
-  })
+  });
 
   var random = 2;
 
